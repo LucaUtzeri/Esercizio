@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("https://images.pexels.com/photos/14240490/pexels-photo-14240490.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+form {
+  background-color: rgb(124, 201, 209);
+  margin-bottom: 3rem;
+  height: 200px;
+  width: 600px;
+  padding: 40px;
+  margin-inline: auto;
+  border: solid;
+  border-radius: 20px;
+  box-shadow: 5px 6px 0px 0px #000000;
+}
+
+form > div {
+  margin-top: 0.5rem;
+  width: max-content;
+  margin-inline: auto;
+}
+
+form label {
+  display: block;
+  margin: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+form input {
+  min-width: 400px;
+  min-height: 30px;
+  border-radius: 10px;
+}
+
+#buttonArea {
+  text-align: center;
+}
+form button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 5px 6px 0px 0px #000000;
+}
+
+.card {
+  width: 90%;
+  border: solid;
+  background-color: #ee997a;
+  margin-inline: 3.2px;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 10px;
+  object-position: center;
+  cursor: pointer;
+}
+
+.card button {
+  background-color: white;
+  border: none;
+  box-shadow: 6px 6px 0px 1px rgb(0 0 0 / 10%);
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  margin-top: 0.75rem;
+  cursor: pointer;
+}
